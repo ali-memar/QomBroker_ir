@@ -34,6 +34,23 @@
     <link rel="icon" href="images/Fav.ico">
 
     <meta name="theme-color" content="#fafafa">
+
+    <!--BEGIN RAYCHAT CODE-->
+    <script type="text/javascript">!function () {
+        function t() {
+            var t = document.createElement("script");
+            t.type = "text/javascript", t.async = !0, localStorage.getItem("rayToken") ? t.src = "https://app.raychat.io/scripts/js/" + o + "?rid=" + localStorage.getItem("rayToken") + "&href=" + window.location.href : t.src = "https://app.raychat.io/scripts/js/" + o + "?href=" + window.location.href;
+            var e = document.getElementsByTagName("script")[0];
+            e.parentNode.insertBefore(t, e)
+        }
+
+        var e = document, a = window, o = "3662ba93-7352-4b4b-a531-a33ea6109452";
+        "complete" == e.readyState ? t() : a.attachEvent ? a.attachEvent("onload", t) : a.addEventListener("load", t, !1)
+    }();
+    </script>
+    <!--END RAYCHAT CODE-->
+
+
 </head>
 
 <body data-spy="scroll" data-target=".fixed-top">
@@ -503,12 +520,12 @@
                 </a>
             </div>
             <div id="icon-whatsapp" class="wow bounceIn position-relative icon-hover" data-wow-delay="0.5s">
-                <!--        <a href="#">-->
-                <img src="images/Whatsapp%2032.png" alt="Whatsapp">
-                <div class="guide-icon">
-                    <p>شماره واتساپ: ۰۹۹۲۲۷۴۴۵۷۴</p>
-                </div>
-                <!--        </a>-->
+                <a href="https://api.whatsapp.com/send?phone=989922744574">
+                    <img src="images/Whatsapp%2032.png" alt="Whatsapp">
+                    <div class="guide-icon">
+                        <p>شماره واتساپ: ۰۹۹۲۲۷۴۴۵۷۴</p>
+                    </div>
+                </a>
             </div>
             <div class="wow bounceIn icon-hover position-relative" data-wow-delay="0.7s">
                 <!--        <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=CllgCHrjmXBjjzgWrPzzvzHRhPHsSpKgtgRzkpQMlzpLtsRXJqNHjCczFhGwjwCtHCDbmXXFRjq">-->
@@ -529,7 +546,48 @@
 <!-- end of contact -->
 
 <!--footer-->
-<div class="pg-footer">
+<footer class="drrtl text-right">
+    <!--    <div class="container">-->
+    <div class="row">
+        <div class="wrapper-col-footer col-12 col-lg-4">
+            <h4>اطلاعات تماس</h4>
+            <p><i class="fa fa-map-marker-alt"></i>قم خیابان ۱۹دی نبش کوی ۶۷</p>
+            <p><i class="fa fa-phone"></i>تلفن تماس: ۰۲۵۳۷۷۵۹۹۱۱</p>
+            <p><i class="fa fa-print"></i>نمابر: ۰۲۵۳۷۷۵۹۹۱۱</p>
+            <p><i class="fa fa-envelope"></i>کدپستی: ۳۷۱۹۱۸۳۵۱۴</p>
+            <p><i class="fa fa-paperclip"></i>tadbirgaran.farda.qom@gmail.com</p>
+        </div>
+        <div class="wrapper-col-footer col-12 col-lg-4">
+            <h4>لینک های مفید</h4>
+            <p><a href=""><i class="fa fa-link"></i>سامانه پرانا</a></p>
+            <p><a href=""><i class="fa fa-link"></i>صندوق سرمایه گذاری مشترک تدبیرگران فردا</a></p>
+            <p><a href=""><i class="fa fa-link"></i>صندوق سرمایه گذاری درآمد ثابت سپهر تدبیرگران فردا</a></p>
+            <p><a href=""><i class="fa fa-link"></i>صندوق سرمایه گذاری نیکوکاری ایتام برکت</a></p>
+            <p><a href=""><i class="fa fa-link"></i>شرایط دریافت اعتبار معاملاتی</a></p>
+        </div>
+        <div class="wrapper-col-footer col-12 col-lg-4">
+            <h4>درباره ما</h4>
+            <p>کارگزاری تدبیرگران فردا در سال ۱۳۸۴ با شماره ۸۰۱۵ در مرجع ثبت شرکت ها به ثبت رسیده است و در حال حاضر
+                سرمایه شرکت ۴۰۰ میلیارد ریال می باشد. همچنین کارگزاری تدبیرگران فردا دارای رتبه الف بین کارگزاران بورس
+                اوراق بهادار می باشد.</p>
+            <div class="whatsapp">
+                <a class="d-block text-decoration-none" href="https://api.whatsapp.com/send?phone=989922744574">
+                    <img src="images/Whatsapp%2032.png" alt="Whatsapp">
+                    پشتیبانی واتس اپ: ۰۹۹۲۲۷۴۴۵۷۴
+                </a>
+            </div>
+        </div>
+        <!--        </div>-->
+    </div>
+
+</footer>
+<div class="footer-copyright">
+    <div class="footer-copyright-wrapper">
+        <p class="footer-copyright-text">.: تمامي حقوق اين وب سايت محفوظ و متعلق به شرکت کارگزاري تدبيرگران فردا نمایندگی قم می باشد :.</p>
+    </div>
+</div>
+
+<!--<div class="pg-footer">
     <footer class="footer-tg">
         <svg class="footer-wave-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 100"
              preserveAspectRatio="none">
@@ -673,7 +731,7 @@
                 فردا بوده و کپي برداري از مطالب آن به هر نحوه پيگرد قانوني دارد. </a>
         </p>
     </div>
-</div>
+</div>-->
 <!--end of footer-->
 
 <div class="nicescroll-box"></div>
@@ -691,22 +749,10 @@
 <script>new WOW().init();</script> <!-- start wow -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 <script src="js/scripts.js"></script> <!-- Custom scripts -->
-<script>
-
-</script><!--for add & remove NiceScroll-->
-<script>
-
-</script><!--Nice Scroll setting-->
-<script>
-
-</script><!--for Notification class-->
 <script src="js/vendor/modernizr-3.11.2.min.js"></script>
 <script src="js/plugins.js"></script>
 <script src="js/main.js"></script>
 <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-
-<script>
-</script><!--default template-->
 
 <script src="https://www.google-analytics.com/analytics.js" async></script>
 <script src="js/prefixfree.min.js"></script>
