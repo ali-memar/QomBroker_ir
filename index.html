@@ -35,20 +35,21 @@
 
     <meta name="theme-color" content="#fafafa">
 
-    <!--BEGIN RAYCHAT CODE-->
-    <script type="text/javascript">!function () {
-        function t() {
-            var t = document.createElement("script");
-            t.type = "text/javascript", t.async = !0, localStorage.getItem("rayToken") ? t.src = "https://app.raychat.io/scripts/js/" + o + "?rid=" + localStorage.getItem("rayToken") + "&href=" + window.location.href : t.src = "https://app.raychat.io/scripts/js/" + o + "?href=" + window.location.href;
-            var e = document.getElementsByTagName("script")[0];
-            e.parentNode.insertBefore(t, e)
+    <!---start GOFTINO code--->
+    <script type="text/javascript"> !function () {
+        var a = window, d = document;
+
+        function g() {
+            var g = d.createElement("script"), i = "BPin5I", s = "https://www.goftino.com/widget/" + i,
+                l = localStorage.getItem("goftino_" + i);
+            g.type = "text/javascript", g.async = !0, g.src = l ? s + "?o=" + l : s;
+            d.getElementsByTagName("head")[0].appendChild(g);
         }
 
-        var e = document, a = window, o = "3662ba93-7352-4b4b-a531-a33ea6109452";
-        "complete" == e.readyState ? t() : a.attachEvent ? a.attachEvent("onload", t) : a.addEventListener("load", t, !1)
+        "complete" === d.readyState ? g() : a.attachEvent ? a.attachEvent("onload", g) : a.addEventListener("load", g, !1);
     }();
     </script>
-    <!--END RAYCHAT CODE-->
+    <!---end GOFTINO code--->
 
 
 </head>
@@ -550,7 +551,7 @@
     <!--    <div class="container">-->
     <div class="row">
         <div class="wrapper-col-footer col-12 col-lg-4">
-            <h4>اطلاعات تماس</h4>
+            <h4 class="mb-3">اطلاعات تماس</h4>
             <p><i class="fa fa-map-marker-alt"></i>قم خیابان ۱۹دی نبش کوی ۶۷</p>
             <p><i class="fa fa-phone"></i>تلفن تماس: ۰۲۵۳۷۷۵۹۹۱۱</p>
             <p><i class="fa fa-print"></i>نمابر: ۰۲۵۳۷۷۵۹۹۱۱</p>
@@ -558,7 +559,7 @@
             <p><i class="fa fa-paperclip"></i>tadbirgaran.farda.qom@gmail.com</p>
         </div>
         <div class="wrapper-col-footer col-12 col-lg-4">
-            <h4>لینک های مفید</h4>
+            <h4 class="mb-3">لینک های مفید</h4>
             <p><a href=""><i class="fa fa-link"></i>سامانه پرانا</a></p>
             <p><a href=""><i class="fa fa-link"></i>صندوق سرمایه گذاری مشترک تدبیرگران فردا</a></p>
             <p><a href=""><i class="fa fa-link"></i>صندوق سرمایه گذاری درآمد ثابت سپهر تدبیرگران فردا</a></p>
@@ -566,7 +567,7 @@
             <p><a href=""><i class="fa fa-link"></i>شرایط دریافت اعتبار معاملاتی</a></p>
         </div>
         <div class="wrapper-col-footer col-12 col-lg-4">
-            <h4>درباره ما</h4>
+            <h4 class="mb-3">درباره ما</h4>
             <p>کارگزاری تدبیرگران فردا در سال ۱۳۸۴ با شماره ۸۰۱۵ در مرجع ثبت شرکت ها به ثبت رسیده است و در حال حاضر
                 سرمایه شرکت ۴۰۰ میلیارد ریال می باشد. همچنین کارگزاری تدبیرگران فردا دارای رتبه الف بین کارگزاران بورس
                 اوراق بهادار می باشد.</p>
@@ -583,7 +584,8 @@
 </footer>
 <div class="footer-copyright">
     <div class="footer-copyright-wrapper">
-        <p class="footer-copyright-text">.: تمامي حقوق اين وب سايت محفوظ و متعلق به شرکت کارگزاري تدبيرگران فردا نمایندگی قم می باشد :.</p>
+        <p class="footer-copyright-text">.: تمامي حقوق اين وب سايت محفوظ و متعلق به شرکت کارگزاري تدبيرگران فردا
+            نمایندگی قم می باشد :.</p>
     </div>
 </div>
 

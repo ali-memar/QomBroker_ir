@@ -1732,7 +1732,7 @@ footer {
 }
 
 footer > div {
-    max-width: 1500px;
+    max-width: 1450px;
     margin: 0 auto !important;
 }
 
@@ -1746,7 +1746,6 @@ footer > div {
 }
 
 .wrapper-col-footer p {
-    max-width: 360px;
     text-align: justify;
 }
 
