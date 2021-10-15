@@ -2294,7 +2294,7 @@ a:hover.back-to-top {
         padding: 18px !important;
     }
 
-    .Container:nth-child(4) .Card h3, .Container:nth-child(5) .Card h3, .Container:nth-child(6) .Card h3 {
+    .Container .Card h3 {
         font-size: 20px;
     }
 
@@ -2324,11 +2324,30 @@ a:hover.back-to-top {
 
     #services {
         height: auto;
-        max-height: initial;
+        min-height: auto;
+    }
+    #services .wrapper-services .container {
+        min-width: 100%;
     }
 
-    .Container:nth-child(4) .Card h3, .Container:nth-child(5) .Card h3, .Container:nth-child(6) .Card h3 {
+    .Container .Card {
+        height: 300px;
+        width: 300px;
+    }
+
+    .Container .Card h3 {
         font-size: 25px;
+    }
+
+    .scroll-slider::-webkit-scrollbar {
+        display: none;
+    }
+    .scroll-slider {
+        padding: 7px;
+        scrollbar-width: thin;
+        scrollbar-color: #cdcdcd transparent;
+        flex-wrap: nowrap;
+        overflow-x: scroll;
     }
 
     .sejam.mr-5 {
