@@ -2348,6 +2348,7 @@ a:hover.back-to-top {
         scrollbar-color: #cdcdcd transparent;
         flex-wrap: nowrap;
         overflow-x: scroll;
+        overflow-y: hidden;
     }
 
     .sejam.mr-5 {
