@@ -1,22 +1,3 @@
-// for add & remove NiceScroll
-$(document).ready(function myResize() {
-    let myW = $(document).width();
-    if (myW > 768) {
-        $('body').append($('<script>').attr('src', 'js/jquery.nicescroll.min.js'));
-    }
-}());
-
-// Nice Scroll setting
-$("body").niceScroll({
-    cursorcolor: "#a247e3",
-    cursorwidth: "14px",
-    background: "rgba(20,20,20,0.3)",
-    cursorborder: "none",
-    zindex: "555555555"
-});
-$(".nicescroll-box").niceScroll(".wrap", {cursorcolor: "aquamarine"});
-$("<your div>").getNiceScroll().resize();
-
 // for Notification class
 $(document).ready(function () {
     $('#bgClass,#Class').removeClass('d-none');
