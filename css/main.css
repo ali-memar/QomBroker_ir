@@ -1398,7 +1398,7 @@ li.dropdown a.dropdown-item:hover {
 
 #registrationGuide h5 {
     position: absolute;
-    top: 87%;
+    top: 93%;
     left: 50%;
     margin-left: -265px;
 }
@@ -2343,6 +2343,7 @@ a:hover.back-to-top {
         display: none;
     }
     .scroll-slider {
+        direction: rtl;
         padding: 7px;
         scrollbar-width: thin;
         scrollbar-color: #cdcdcd transparent;
@@ -2427,7 +2428,7 @@ a:hover.back-to-top {
     }
 
     #registrationGuide h5.one {
-        margin-top: 30px;
+        margin-top: 20px;
     }
 
     #registrationGuide + h5.tow {
